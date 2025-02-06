@@ -1,5 +1,6 @@
 
 #### Output
+import math
 print("Calculadora.py")
 print("Operadores")
 print("==========================================")
@@ -14,6 +15,7 @@ print("2. Restar")
 print("3. Multiplicar")
 print("4. Dividir")
 print("5. Potencia")
+print("6. logaritmo")
 
 instruccion = int(input("Con que operador quieres (?) "))
 
@@ -39,4 +41,7 @@ if instruccion == 4:
 if instruccion == 5:
      
     print("El valor es: ", y ** x)
+if instruccion == 6:
+    
+    print("El valor es: ", math.log(x,y))
     
