@@ -24,19 +24,19 @@ else:
     print("Puedes Seguir usando el programa. ")
 
 if instruccion == 1:
-    y + x
+    
     print("El Valor es: ", x + y)
 
 if instruccion == 2:
-    y - x
+    
     print(x - y)
 if instruccion == 3:
-    y * x
+    
     print("El valor es: ", y * x)
 if instruccion == 4:
-    y / x
+    
     print("El valor es: ", y / x)
 if instruccion == 5:
-    y ** x 
+     
     print("El valor es: ", y ** x)
     
